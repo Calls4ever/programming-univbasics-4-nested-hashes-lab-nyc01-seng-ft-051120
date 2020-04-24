@@ -27,11 +27,11 @@ describe "Working with Nested Hashes -" do
     end
   end
 
-  #describe "the changing_alan method" do
-  #  it "operates on the programmer_hash and changes what Alan Kay is known for, returning the newly-changed hash" do
-  #    expect(changing_alan[:alan_kay][:known_for]).to eq("Object Orientation")
-  #  end
-#  end
+  describe "the changing_alan method" do
+    it "operates on the programmer_hash and changes what Alan Kay is known for, returning the newly-changed hash" do
+      expect(changing_alan[:alan_kay][:known_for]).to eq("Object Orientation")
+    end
+  end
 
   describe "the adding_to_dennis method" do
     it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do
